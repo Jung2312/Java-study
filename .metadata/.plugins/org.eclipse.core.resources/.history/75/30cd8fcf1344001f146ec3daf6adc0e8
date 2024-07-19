@@ -1,0 +1,24 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class Super3{
+	int a;
+	public Super3() {
+		// TODO Auto-generated constructor stub
+	}
+}
+
+public class ConstructorEx3 extends Super3{
+
+	public static void main(String[] args) {
+		Super3 c1 = new Super3();
+		ConstructorEx3 c2 = new ConstructorEx3();
+		c2.a = 10;
+		System.out.println(c1.a);
+	}
+
+}

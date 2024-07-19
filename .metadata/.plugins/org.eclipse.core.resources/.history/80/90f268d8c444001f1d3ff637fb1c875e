@@ -1,0 +1,16 @@
+package ch06;
+
+public class TeamBean {
+	
+	private int num;
+	private String name;
+	private String age;
+	private String email;
+	private String team;
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

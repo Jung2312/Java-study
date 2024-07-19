@@ -1,0 +1,31 @@
+package ch06;
+
+class Method2<T>{
+	/*
+	 * 메소드 오버 로딩 : 동일 클래스 내에 동일한 메소드 명으로 매개 변수 개수와 타입을 달리 하는 것 void prn(int a) {
+	 * System.out.println(a); } void prn(int a, int b) { System.out.println(a); }
+	 */
+	
+	가변 인수
+	void prnf(T a) {
+		System.out.println(a);
+	}
+
+	void prn(T a) {
+		System.out.println(a);
+	}
+	
+	void prn(T a, T b) {
+		System.out.println(a +" " + b);
+	}
+}
+
+public class MethodEx2 {
+
+	public static void main(String[] args) {
+		Method2 m1 = new Method2();
+		m1.prn(2);
+		m1.prn(2,4);
+	}
+
+}

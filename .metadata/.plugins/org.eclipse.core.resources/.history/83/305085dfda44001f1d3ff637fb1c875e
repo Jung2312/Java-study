@@ -1,0 +1,15 @@
+package ch06;
+
+class Static2{
+	static int a; // 상수 X, 초기화 필요 X
+	// static final int a; -> 상수 O, 초기화 필요 O
+	int b;
+}
+
+public class StaticEx2 {
+	public static void main(String[] args) {
+		 Static2 st1 = new Static2();
+		 
+	}
+
+}

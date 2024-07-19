@@ -1,0 +1,17 @@
+package ch06;
+
+import java.util.Random;
+
+public class MColor {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	static Random rd = new Random();
+	
+	public static Color rColor() {
+		int r, g, b;
+		r = rd.nextInt(256)
+	}
+}

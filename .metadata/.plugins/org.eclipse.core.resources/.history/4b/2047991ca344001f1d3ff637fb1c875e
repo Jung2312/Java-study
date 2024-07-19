@@ -1,0 +1,21 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class This5{
+	public This5() {
+		// TODO Auto-generated constructor stub
+	}
+}
+
+
+public class ConstructorEx5{
+
+	public static void main(String[] args) {
+
+	}
+
+}

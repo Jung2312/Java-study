@@ -1,0 +1,32 @@
+package ch06;
+
+/*
+1. private (0.1%) -> Math
+2. protected (0.01%)
+3. public (99.9%)
+*/
+
+class Acceess2{ // public으로 선언하면 오류남 -> 
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	private String name;
+	private int age;
+}
+
+public class AcceesEx2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

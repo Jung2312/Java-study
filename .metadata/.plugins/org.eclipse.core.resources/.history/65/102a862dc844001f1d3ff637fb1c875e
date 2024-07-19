@@ -1,0 +1,21 @@
+package ch06;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class Super{
+	String name;
+	void prn() {
+		System.out.println(name);
+	}
+}
+
+public class ThisEx3 extends Super33{
+
+	public static void main(String[] args) {
+		new ThisFrame();
+	}
+
+}

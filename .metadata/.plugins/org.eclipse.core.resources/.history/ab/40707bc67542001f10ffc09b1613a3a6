@@ -1,0 +1,13 @@
+package ch01;
+
+// 자바의 인코딩은 utf-8
+public class Ex4 {
+
+	public static void main(String[] args) {
+		출력("잠와");
+	}
+
+	public static void 출력(String 문자) {
+		System.out.println(문자);
+	}
+}

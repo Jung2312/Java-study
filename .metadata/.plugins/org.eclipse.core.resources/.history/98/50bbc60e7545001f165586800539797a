@@ -1,0 +1,15 @@
+package ch06;
+
+import java.awt.Frame;
+
+import ch06_1.AccessEx4;
+
+
+public class AcceesEx5 extends AccessEx4{
+
+	public static void main(String[] args) {
+		MyFrame frn =  new MyFrame();
+		frn.prn();
+	}
+
+}

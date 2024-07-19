@@ -1,0 +1,9 @@
+package ch01;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		// 데이터 타입 : 기본형 8개 + 참조형 : SUN + 외부Lib
+	}
+
+}

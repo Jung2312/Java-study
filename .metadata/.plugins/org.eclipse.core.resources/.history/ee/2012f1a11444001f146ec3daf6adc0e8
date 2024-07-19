@@ -1,0 +1,25 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class Super3 extends Object{
+	int a;
+	public Super3() {
+		super(); // 생략되어있음 Object(슈퍼클래스) <-> 
+	}
+}
+
+public class ConstructorEx3 extends Super3{
+
+	public static void main(String[] args) {
+		Super3 c1 = new Super3();
+		ConstructorEx3 c2 = new ConstructorEx3();
+		c2.a = 10;
+		System.out.println(c1.a);
+		System.out.println(c2.a);
+	}
+
+}

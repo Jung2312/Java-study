@@ -1,0 +1,21 @@
+package ch01;
+
+public class Ex3 {
+	public static void main(String[] args) {
+		// 기본형 8개 + 참조형 무한대(ex. String)
+		
+		// 정수형 4
+		byte b = 10;
+		short s = 10;
+		int i = 20;
+		long l = 20;
+		
+		// 실수형 3
+		
+		
+		// 문자형 1
+		
+		
+		// 불린형 1
+	}
+}

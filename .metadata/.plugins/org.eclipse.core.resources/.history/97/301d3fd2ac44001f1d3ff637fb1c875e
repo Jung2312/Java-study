@@ -1,0 +1,18 @@
+package ch06;
+
+import java.awt.TextArea;
+import java.awt.TextField;
+
+public class YouFrame3 extends MFrame3 {
+	
+	public YouFrame3() {
+		super(500,500);
+		add(new TextArea());
+		add(new TextField())
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class Super3{
+	
+	int a;
+	int b;
+	
+	void prn() {
+		System.out.println("ㅎㅇ");
+	}
+}
+
+public class ConstructorEx3{
+
+	public static void main(String[] args) {
+		Consturctor3 c1 = new Consturctor3();
+		c1.
+		Dialog dialog = new Dialog(new JFrame());
+	}
+
+}

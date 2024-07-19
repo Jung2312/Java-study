@@ -1,0 +1,38 @@
+package ch06;
+
+class Car2{
+	void speedUP() {
+		velocity++;
+	}
+	
+	void speedDown() {
+		velocity--;
+		if(velocity < 0) {
+			velocity = 0;
+		}
+	}
+	
+	void stop() {
+		velocity = 0;
+	}
+	
+	String carName;
+	int velocity;
+	String carColor;
+}
+
+public class CarEx2 {
+
+	public static void main(String[] args) {
+		Car1 c1 = new Car1();
+		
+		c1.velocity = 20;
+		c1.carName = "소나타";
+		c1.carColor = "은색";
+		
+		System.out.println(c1.carColor);
+		System.out.println(c1.carName);
+		System.out.println(c1.velocity);
+	}
+
+}

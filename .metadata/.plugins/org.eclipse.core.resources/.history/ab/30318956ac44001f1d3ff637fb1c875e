@@ -1,0 +1,13 @@
+package ch06;
+
+public class MyFrame3 extends MFrame3 {
+	
+	public MyFrame3() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		MFrame3 m3 = new MFrame3();
+	}
+
+}

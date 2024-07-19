@@ -1,0 +1,20 @@
+package ch06;
+
+import java.awt.Button;
+import java.awt.Frame;
+
+class ThisFrame extends MFrame3{
+	Button btn;
+	
+	public ThisFrame() {
+		
+	}
+}
+
+public class ThisEx2 {
+
+	public static void main(String[] args) {
+		new ThisFrame();
+	}
+
+}

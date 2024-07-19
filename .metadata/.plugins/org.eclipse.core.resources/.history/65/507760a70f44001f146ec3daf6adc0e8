@@ -1,0 +1,13 @@
+package ch06;
+
+class Consturctor1{
+	
+}
+
+public class ConstructorEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

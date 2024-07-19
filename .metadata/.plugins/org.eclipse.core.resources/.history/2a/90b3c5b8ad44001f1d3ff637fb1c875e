@@ -1,0 +1,21 @@
+package ch06;
+
+import java.awt.TextArea;
+import java.awt.TextField;
+
+public class YouFrame3 extends MFrame3 {
+	
+	public YouFrame3() {
+		super(250,250);
+		add(new TextArea());
+		add(new TextField(), "South");
+		validate();
+	}
+
+	public static void main(String[] args) {
+		for (int i = 0; i < args.length; i++) {
+			
+		}
+	}
+
+}

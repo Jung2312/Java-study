@@ -1,0 +1,30 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class Person extends Object {
+	String name;
+	int age;
+	
+	public Person(String name, int age) {
+		this.name = name;
+		
+	}
+}
+
+
+public class ConstructorEx4 extends Super3 {
+
+	public static void main(String[] args) {
+		/*
+		 * Super3 c1 = new Super3(); ConstructorEx3 c2 = new ConstructorEx3(); c2.a =
+		 * 10; System.out.println(c1.a); System.out.println(c2.a);
+		 */
+		Sub3 s3 = new Sub3();
+		Frame f = new Frame();
+	}
+
+}

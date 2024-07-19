@@ -1,0 +1,15 @@
+package ch06;
+
+class This1{
+	public This1() {
+		
+	}
+}
+
+public class ThisEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

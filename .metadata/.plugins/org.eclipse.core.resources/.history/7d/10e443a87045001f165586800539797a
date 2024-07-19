@@ -1,0 +1,17 @@
+package ch06;
+
+/*
+1. private (0.1%) -> Math
+2. protected (0.01%)
+3. public (99.9%)
+*/
+
+
+
+public class AcceesEx3 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

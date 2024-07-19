@@ -1,0 +1,19 @@
+package ch06;
+
+//ch06.String
+class String{
+	
+}
+
+//ch06.Car1
+class Car1{
+	
+}
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

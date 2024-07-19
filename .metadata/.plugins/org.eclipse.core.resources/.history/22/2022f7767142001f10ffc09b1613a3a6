@@ -1,0 +1,7 @@
+package ch01;
+
+public class Ex3 {
+	public static void main(String[] args) {
+		// 기본형 8개 + 참조형 무한대(ex. String)
+	}
+}

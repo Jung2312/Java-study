@@ -1,0 +1,13 @@
+package ch06;
+
+class Car1{
+	
+}
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

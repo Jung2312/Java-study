@@ -1,0 +1,26 @@
+package ch06;
+
+
+
+class Final1{
+	
+}
+
+class Final2 extends Final1{
+	
+}
+
+class Final3{
+	// 상수 : 한 번 정해진 값은 변경이 불가능함, 초기화 무조건 필요
+	static final int KIA = 1; // 대부분 대문자로 표기
+	//ex. Math.PI, Color.red
+	
+}
+
+public class FinalEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

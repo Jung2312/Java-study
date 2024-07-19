@@ -1,0 +1,32 @@
+package ch06;
+
+class Car2{
+
+	
+	void speedUP() {
+		velocity++;
+	}
+	
+	void speedDown() {
+		velocity--;
+		if(velocity < 0) {
+			velocity = 0;
+		}
+	}
+	
+	void stop() {
+		velocity = 0;
+	}
+	
+	String carName;
+	int velocity;
+	String carColor;
+}
+
+public class CarEx2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

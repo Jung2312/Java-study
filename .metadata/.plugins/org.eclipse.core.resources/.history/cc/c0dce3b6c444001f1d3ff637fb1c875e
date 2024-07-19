@@ -1,0 +1,10 @@
+package ch06;
+
+@Bean
+public class TeamBean {
+
+	public static void main(String[] args) {
+
+	}
+
+}

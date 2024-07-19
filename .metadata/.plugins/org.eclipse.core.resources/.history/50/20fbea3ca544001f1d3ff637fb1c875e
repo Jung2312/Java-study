@@ -1,0 +1,11 @@
+package ch06;
+
+import java.awt.Frame;
+
+public class MyFrame1 extends Frame{
+
+	public static void main(String[] args) {
+		Frame f = new Frame()
+	}
+
+}

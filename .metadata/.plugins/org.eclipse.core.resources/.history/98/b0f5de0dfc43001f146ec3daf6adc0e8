@@ -1,0 +1,21 @@
+// 도메인 뒤로 선언 : naver.com -> package com.naver.String
+
+package ch06;
+
+//ch06.String
+class String{
+	
+}
+
+//ch06.Car1
+class Car1{
+	
+}
+
+public class CarEx1 {
+
+	public static void main(java.lang.String[] args) {
+		
+	}
+
+}

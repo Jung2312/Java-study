@@ -1,0 +1,15 @@
+package ch06;
+
+import java.awt.Color;
+
+public class MyFrame3 extends MFrame3 {
+	
+	public MyFrame3() {
+		super(Color.orange);
+	}
+
+	public static void main(String[] args) {
+		MFrame3 m3 = new MFrame3();
+	}
+
+}

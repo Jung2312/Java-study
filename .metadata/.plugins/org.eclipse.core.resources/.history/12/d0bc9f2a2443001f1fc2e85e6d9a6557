@@ -1,0 +1,25 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// Month(1~12) 입력하고 각각 계절에 맞는 봄(3~5), 여름(6~8), 가을(9~11), 겨울 출력(12~2)
+		// 5라고 입력을 하면 봄입니다. 출력
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("월을 입력하세요 : ");
+		int month = sc.nextInt();
+		
+		// if-else
+		if(3 <= month & month <= 5) {
+			System.out.println("봄입니다.");
+		}else if()
+		
+		
+		
+	}
+
+}

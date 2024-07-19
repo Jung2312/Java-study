@@ -1,0 +1,15 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+		// 점수, 학년 입력 -> 점수가 60점 이상이면 합격
+		Scanner sc = new Scanner(System.in);
+		System.out.println("점수를 입력하세요");
+		int score = 
+		int grade = 
+	}
+
+}

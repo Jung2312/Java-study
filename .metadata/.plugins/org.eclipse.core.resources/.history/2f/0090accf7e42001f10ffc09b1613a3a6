@@ -1,0 +1,9 @@
+package ch01;
+
+public class Ex9 {
+
+	public static void main(String[] args) {
+		// 입력된 숫자가 짝수인지 홀수인지 판별
+	}
+
+}

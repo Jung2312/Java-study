@@ -1,0 +1,18 @@
+package ch04;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		String month = "february";
+		
+		switch (month) {
+		case "june": {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + month);
+		}
+	}
+
+}

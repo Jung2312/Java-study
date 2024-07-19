@@ -1,0 +1,42 @@
+package ch06;
+
+import java.awt.Dialog;
+import java.awt.Frame;
+
+import javax.swing.JFrame;
+
+class Person extends Object {
+	String name;
+	int age;
+	
+	public Person(String name, int age) {
+		super(); // Object 객체를 생성
+		this.name = name;
+		this.age = age;
+	}
+	
+	void prn() {
+		System.out.println(name + age);
+	}
+}
+
+class Employee extends Person{
+	String department;
+	public Employee(String name, int age) {
+		super(name, age);
+	}
+}
+
+
+public class ConstructorEx4 extends Person {
+
+	public ConstructorEx4(String name, int age) {
+		super(name, age);
+	}
+
+	public static void main(String[] args) {
+		Person pr = new Person("홍길동", 20);
+		pr.prn();
+	}
+
+}

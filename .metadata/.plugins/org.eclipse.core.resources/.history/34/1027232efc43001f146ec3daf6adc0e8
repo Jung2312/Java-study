@@ -1,0 +1,17 @@
+// 도메인 뒤로 선언 : naver.com -> package com.naver.String
+
+package ch06;
+
+//ch06.Car1
+//클래스는 객체를 
+class Car1{
+	
+}
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
