@@ -1,9 +1,35 @@
 package ch11;
 
-
 public class PalindromeEx1 {
 
 	public static final int MAX = 100000;
+
+	public static int palindrome(int a) {
+		int sum = 0;
+		for (int i = 0; i < MAX; i++) {
+
+			StringBuffer sbB = new StringBuffer(Integer.toBinaryString(i));
+			StringBuffer sbS = new StringBuffer(Integer.toString(i));
+
+			String strB = Integer.toBinaryString(i);
+			String strS = Integer.toString(i);
+
+			if (a == 1) {
+				if (strS.equals(sbS.reverse().toString())) {
+					sum += i;
+				}
+			} else if (a == 2) {
+				if (strB.equals(sbB.reverse().toString())) {
+					sum += i;
+				}
+			} else if (a == 3) {
+				if (strB.equals(sbB.reverse().toString()) & strS.equals(sbS.reverse().toString())) {
+					sum += i;
+				}
+			}
+		}
+		return sum;
+	}
 
 	public static void main(String[] args) {
 		/*
@@ -12,40 +38,10 @@ public class PalindromeEx1 {
 		 */
 
 		// 문제1.10진법의 대칭수인 100,000 이하 숫자의 합은 얼마입니까?
-		int sum = 0;
-		for (int i = 0; i <= 100000; i++) {
-			if(i == Integer.reverse(i)) {
-				sum += i;
-			}
-
-		}
-		System.out.println(sum);
-
+		System.out.println(palindrome(1));
 		// 문제2.2진법의 대칭수인 100,000 이하 숫자의 합은 얼마입니까?
-		sum = 0;
-		for (int i = 0; i <= 100000; i++) {
-			StringBuffer num = new StringBuffer(Integer.toBinaryString(i));  
-			if(num == num.reverse()) {
-				sum += i;
-			}
-
-		}
-		System.out.println(sum);
-		
+		System.out.println(palindrome(2));
 		// 문제3.10진법과 2진법으로 모두 대칭수인 100,000 이하 숫자의 합은 얼마입니까?
-		sum = 0;
-		for (int i = 0; i <= 100000; i++) {
-			StringBuffer num = new StringBuffer(Integer.toBinaryString(i));  
-			if(num == num.reverse() & i == Integer.reverse(i)) {
-				sum += i;
-			}
-
-		}
-		System.out.println(sum);
-		
+		System.out.println(palindrome(3));
 	}
 }
-
-
-
-
