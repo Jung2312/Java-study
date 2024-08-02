@@ -1,0 +1,5 @@
+CREATE table mydata.tblZipcode(
+	zipcode CHAR(5) NOT NULL,
+	AREA1 CHAR(20) NOT NULL,
+	AREA2 CHAR(30) NOT NULL,
+	AREA3 CHAR(50) NOT NULL);
